@@ -15,4 +15,17 @@ class EloquentCitiesRepository extends EloquentAbstractRepository implements Cit
         $this->modelClass = City::class;
     }
 
+    /**
+     * Create City.
+     * 
+     * @param array $fields
+     * @return City
+     */
+    public function create(array $fields = null)
+    {
+        $fields['slug'] = str_slug($fields['name']);
+
+        return parent::create($fields);
+    }
+
 }
