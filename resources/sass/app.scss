@@ -8,6 +8,14 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
+@import "~font-awesome/scss/font-awesome.scss";
+
+@import "~simple-line-icons/scss/simple-line-icons.scss";
+
+@import '~@coreui/icons/scss/coreui-icons';
+
+@import "~@coreui/coreui/scss/coreui";
+
 .navbar-laravel {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
