@@ -10,9 +10,9 @@
         <span class="navbar-toggler-icon"></span>
     </button>
     <ul class="nav navbar-nav d-md-down-none">
-<!--        <li class="nav-item px-3">
-            <a class="nav-link" href="#">Dashboard</a>
-        </li>-->
+        <!--        <li class="nav-item px-3">
+                    <a class="nav-link" href="#">Dashboard</a>
+                </li>-->
     </ul>
     <ul class="nav navbar-nav ml-auto">
         <li class="nav-item dropdown">
@@ -22,9 +22,13 @@
             <div class="dropdown-menu dropdown-menu-right">
                 <a class="dropdown-item disabled" href="#">
                     <i class="fa fa-user"></i> Profile</a>
-                <a class="dropdown-item" href="#">
+                <a class="dropdown-item" href="{{ route('logout') }}"
+                   onclick="event.preventDefault();document.getElementById('logout-form').submit();">
                     <i class="fa fa-lock"></i> Logout</a>
             </div>
         </li>
+        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+            @csrf
+        </form>
     </ul>
 </header>
