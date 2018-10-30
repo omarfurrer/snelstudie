@@ -1,7 +1,5 @@
 @extends('layouts.admin')
 
 @section('content')
-<div class="container">
-    yow
-</div>
+Cool reporting tools and graphs and tools
 @endsection

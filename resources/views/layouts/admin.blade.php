@@ -19,12 +19,19 @@
         <!-- Styles -->
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     </head>
-    <body>
+    <body class="app header-fixed sidebar-fixed aside-menu-fixed sidebar-lg-show">
         <div id="app">
-            @include("subviews.navbars.main")
-            <main class="py-4">
-                @yield('content')
-            </main>
+            @include("subviews.navbars.admin")
+            <div class="app-body">
+                @include("subviews.sidebars.admin")
+                <main class="main">
+                    <div class="container-fluid">
+                        <div class="animated fadeIn">
+                            @yield('content')
+                        </div>
+                    </div>
+                </main>
+            </div>
         </div>
     </body>
 </html>
