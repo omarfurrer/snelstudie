@@ -18,6 +18,8 @@ Route::get('/how-it-works', 'PagesController@getHowItWorks');
 
 Auth::routes();
 
+Route::redirect('/admin', '/admin/dashboard', 301);
+
 Route::prefix('admin')->namespace('Admin')->middleware('auth', 'role:admin')->group(function () {
     Route::get('/dashboard', 'DashboardController@getDashboard');
 });
