@@ -23,5 +23,8 @@
         "popper.js": "^1.12",
         "simple-line-icons": "^2.4.1",
         "vue": "^2.5.7"
+    },
+    "dependencies": {
+        "tinymce": "^4.8.5"
     }
 }

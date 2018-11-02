@@ -9,9 +9,6 @@
 
         <title>{{ config('app.name', 'Laravel') }}</title>
 
-        <!-- Scripts -->
-        <script src="{{ asset('js/app.js') }}" defer></script>
-
         <!-- Fonts -->
         <link rel="dns-prefetch" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
@@ -26,12 +23,30 @@
                 @include("subviews.sidebars.admin")
                 <main class="main">
                     <div class="container-fluid">
-                        <div class="animated fadeIn">
+                        <div class="animated fadeIn mt-3">
                             @yield('content')
                         </div>
                     </div>
                 </main>
             </div>
         </div>
+
+        <script src="{{ asset('js/app.js') }}"></script>
+
+        <script>
+function deleteModel(event, form_id, message) {
+    event.preventDefault();
+    if (confirm(message)) {
+        document.getElementById(form_id).submit();
+        return true;
+    }
+    return false;
+}
+tinymce.init({
+    selector: '.tiny-editor'
+});
+        </script>
+
+        @stack('scripts')
     </body>
 </html>

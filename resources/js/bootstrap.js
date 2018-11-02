@@ -13,7 +13,13 @@ try {
 
     require('bootstrap');
     require('@coreui/coreui');
-} catch (e) {}
+
+    // Import TinyMCE
+    const tinymce = require('tinymce/tinymce');
+    // A theme is also required
+    require('tinymce/themes/modern/theme');
+} catch (e) {
+}
 
 /**
  * We'll load the axios HTTP library which allows us to easily issue requests
