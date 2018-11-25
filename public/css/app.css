@@ -30984,3 +30984,13 @@ body {
   color: red;
 }
 
+.form-group.ideal-length {
+  position: relative;
+}
+
+.form-group.ideal-length .input-length {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+

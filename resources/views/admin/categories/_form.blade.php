@@ -29,7 +29,7 @@
     </div>
     @endif
 
-    <div class="form-group">
+    <div class="form-group ideal-length">
         <label class="form-col-form-label" for="meta_title">Meta Title</label>
         <input class="form-control{{ $errors->has('meta_title') ? ' is-invalid' : '' }}"
                id="meta_title" name="meta_title" type="text"
@@ -38,9 +38,10 @@
         <small class="form-text text-muted">
             Ideal Meta title length is 60 chars long.
         </small>
+        <small class="text-muted input-length"></small>
     </div>
 
-    <div class="form-group">
+    <div class="form-group ideal-length">
         <label class="form-col-form-label" for="meta_description">Meta Description</label>
         <input class="form-control{{ $errors->has('meta_description') ? ' is-invalid' : '' }}"
                id="meta_description" name="meta_description" type="text"
@@ -49,10 +50,10 @@
         <small class="form-text text-muted">
             Ideal Meta Description length is 300 chars long.
         </small>
+        <small class="text-muted input-length"></small>
     </div>
 
 </form>
-
 
 
 

@@ -45,6 +45,16 @@ function deleteModel(event, form_id, message) {
 tinymce.init({
     selector: '.tiny-editor'
 });
+$(function () {
+
+    $('.ideal-length input, .ideal-length text-area').each(function () {
+        $(this).siblings('.input-length:first').text(this.value.length == 0 ? '' : '(' + this.value.length + ')');
+    });
+
+    $('.ideal-length input, .ideal-length text-area').keyup(function () {
+        $(this).siblings('.input-length:first').text(this.value.length == 0 ? '' : '(' + this.value.length + ')');
+    });
+});
         </script>
 
         @stack('scripts')

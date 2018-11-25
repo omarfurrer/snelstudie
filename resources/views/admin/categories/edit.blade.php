@@ -6,7 +6,7 @@
     <div class="col-sm-12">
         <div class="card">
             <div class="card-header">
-                <strong>Edit {{ $category->code }}</strong>
+                <strong>Edit {{ $category->name }}</strong>
             </div>
             <div class="card-body">
                 @include('admin.categories._form')
