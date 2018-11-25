@@ -43,7 +43,9 @@ class RepositoryServiceProvider extends ServiceProvider {
         $this->app->singleton(
                 Interfaces\CitiesVariablesRepositoryInterface::class, Repositories\EloquentCitiesVariablesRepository::class
         );
-      
+        $this->app->singleton(
+                Interfaces\CitiesVariableRulesRepositoryInterface::class, Repositories\EloquentCitiesVariableRulesRepository::class
+        );
     }
 
 }
