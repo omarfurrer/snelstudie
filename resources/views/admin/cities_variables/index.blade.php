@@ -8,14 +8,14 @@
 </div>
 <div class="row">
     <div class="col-sm-12">
-        <div class="card">
+        <div class="card card-accent-primary">
             <div class="card-header">
                 <i class="fa fa-align-justify"></i> {{ $citiesVariables->count() }} Cities Variables
             </div>
             @if($citiesVariables->isNotEmpty())
             <div class="card-body">
-                <table class="table table-responsive-sm table-striped">
-                    <thead>
+                <table class="table table-responsive-sm">
+                    <thead class="thead-dark">
                         <tr>
                             <th>Name</th>
                             <th>Code</th>
