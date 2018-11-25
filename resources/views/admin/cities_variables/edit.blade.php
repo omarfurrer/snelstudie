@@ -12,7 +12,7 @@
                 @include('admin.cities_variables._form')
             </div>
             <div class="card-footer">
-                <button type="submit" form="form__cotent_block" class="btn btn-primary pull-right">Save</button>
+                <button type="submit" form="form__cities_variable" class="btn btn-primary pull-right">Save</button>
             </div>
         </div>
     </div>

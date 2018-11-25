@@ -7,6 +7,11 @@
                 </a>
             </li>
             <li class="nav-item">
+                <a class="nav-link" href="/admin/categories">
+                    <i class="nav-icon icon-list"></i> Categories
+                </a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" href="/admin/content_blocks">
                     <i class="nav-icon icon-speech"></i> Content Blocks
                 </a>

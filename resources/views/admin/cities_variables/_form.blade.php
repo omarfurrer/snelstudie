@@ -1,4 +1,4 @@
-<form id='form__cotent_block'
+<form id='form__cities_variable'
       action="{{ isset($citiesVariable)? '/admin/cities_variables/'.$citiesVariable->id : '/admin/cities_variables' }}"
       method="POST" novalidate>
 
