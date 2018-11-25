@@ -17,5 +17,14 @@
         </div>
     </div>
 </div>
+<div class="row">
+    <div class="col-sm-12">
+        <div class="card">
+            <div class="card-body">
+                <city-variable-rules cities-variable-id="{{ $citiesVariable->id }}"></city-variable-rules>
+            </div>
+        </div>
+    </div>
+</div>
 
 @endsection
