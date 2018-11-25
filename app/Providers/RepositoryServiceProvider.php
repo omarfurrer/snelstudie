@@ -40,6 +40,10 @@ class RepositoryServiceProvider extends ServiceProvider {
         $this->app->singleton(
                 Interfaces\ContentBlocksRepositoryInterface::class, Repositories\EloquentContentBlocksRepository::class
         );
+        $this->app->singleton(
+                Interfaces\CitiesVariablesRepositoryInterface::class, Repositories\EloquentCitiesVariablesRepository::class
+        );
+      
     }
 
 }
