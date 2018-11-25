@@ -30979,3 +30979,8 @@ body {
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
+.form-group.required label:after {
+  content: "*";
+  color: red;
+}
+
