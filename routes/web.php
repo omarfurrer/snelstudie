@@ -23,5 +23,6 @@ Route::redirect('/admin', '/admin/dashboard', 301);
 Route::prefix('admin')->namespace('Admin')->middleware('auth', 'role:admin')->group(function () {
     Route::get('/dashboard', 'DashboardController@getDashboard');
     Route::resource('/content_blocks', 'ContentBlocksController');
+    Route::resource('/cities_variables', 'CitiesVariablesController');
 });
 
