@@ -12,11 +12,11 @@
         <label class="form-col-form-label" for="name">Name</label>
         <input class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}"
                id="name" name="name" type="text"
-               value="{{ old('name',isset($contentBlock)? $contentBlock->name : '') }}" required>
+               value="{{ old('name',isset($contentBlock)? $contentBlock->name : '') }}">
         <div class="invalid-feedback">{{ $errors->first('name') }}</div>
     </div>
 
-    <div class="form-group">
+    <div class="form-group required">
         <label class="form-col-form-label" for="code">Code</label>
         <input class="form-control{{ $errors->has('code') ? ' is-invalid' : '' }}"
                id="code" name="code" type="text"
@@ -24,7 +24,7 @@
         <div class="invalid-feedback">{{ $errors->first('code') }}</div>
     </div>
 
-    <div class="form-group">
+    <div class="form-group required">
         <label class="form-col-form-label" for="content">Content</label>
         <textarea class="form-control tiny-editor{{ $errors->has('content') ? ' is-invalid' : '' }}"
                   id="content" name="content" required>
