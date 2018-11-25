@@ -24,5 +24,6 @@ Route::prefix('admin')->namespace('Admin')->middleware('auth', 'role:admin')->gr
     Route::get('/dashboard', 'DashboardController@getDashboard');
     Route::resource('/content_blocks', 'ContentBlocksController');
     Route::resource('/cities_variables', 'CitiesVariablesController');
+    Route::resource('/categories', 'CategoriesController');
 });
 
