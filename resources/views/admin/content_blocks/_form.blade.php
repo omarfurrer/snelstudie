@@ -27,7 +27,7 @@
     <div class="form-group required">
         <label class="form-col-form-label" for="content">Content</label>
         <textarea class="form-control tiny-editor{{ $errors->has('content') ? ' is-invalid' : '' }}"
-                  id="content" name="content" required>
+                  id="content" name="content" rows="20" required>
             {{old('content',isset($contentBlock)? $contentBlock->content : '')}}
         </textarea>
         <div class="invalid-feedback">{{ $errors->first('content') }}</div>

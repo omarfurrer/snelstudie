@@ -4,8 +4,8 @@
 
 <div class="row">
     <div class="col-sm-12">
-        <div class="card">
-            <div class="card-header">
+        <div class="card border-primary">
+            <div class="card-header bg-primary">
                 <strong>Edit {{ $citiesVariable->code }}</strong>
             </div>
             <div class="card-body">
@@ -19,7 +19,7 @@
 </div>
 <div class="row">
     <div class="col-sm-12">
-        <div class="card">
+        <div class="card border-primary">
             <div class="card-body">
                 <city-variable-rules cities-variable-id="{{ $citiesVariable->id }}"></city-variable-rules>
             </div>

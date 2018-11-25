@@ -4,8 +4,8 @@
 
 <div class="row">
     <div class="col-sm-12">
-        <div class="card">
-            <div class="card-header">
+        <div class="card border-primary">
+            <div class="card-header bg-primary">
                 <strong>New City Variable</strong>
             </div>
             <div class="card-body">
