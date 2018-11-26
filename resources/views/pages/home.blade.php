@@ -36,4 +36,21 @@
 		</div>
 	</div>
 </div>
+
+@push('scripts')
+
+<script>
+	
+	$(function () {
+		$(document).scroll(function () {
+			console.log("Mido");
+			 $nav = $(".myNav");
+			$nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+		});
+	});
+
+
+</script>
+
+@endpush
 @endsection
