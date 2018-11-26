@@ -1,0 +1,37 @@
+
+body {
+	background-color: white;
+}
+
+/*Navbar styles*/
+
+.myNav.scrolled {
+	background-color: #fff !important;
+	transition: background-color 200ms linear;
+}
+
+.myNav.scrolled .nav-link {
+  color:black;
+}
+
+.myNav {
+	background: none;
+	border: none;
+	z-index: 10;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+	color: white;
+	font-family: 'monospace',sans-serif;
+	font-size: 15px;
+	font-stretch: unset;
+	font-weight: bold;
+	padding: 20px;
+}
+
+/*//////////////*/
+
+
+
+
