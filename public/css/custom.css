@@ -1,0 +1,108 @@
+
+body {
+	background-color: white;
+}
+
+/*Navbar styles*/
+
+.myNav.scrolled {
+	background-color: #fff !important;
+	transition: background-color 200ms linear;
+}
+
+.myNav.scrolled .nav-link {
+  color:black;
+}
+
+.myNav {
+	background: none;
+	border: none;
+	z-index: 10;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+	color: white;
+	font-family: 'monospace',sans-serif;
+	font-size: 15px;
+	font-stretch: unset;
+	font-weight: bold;
+	padding: 20px;
+}
+
+/*/////END OF NAVBAR STYLES//////////*/
+
+
+/*Home background sector styles*/
+
+.homeBgContainer {
+	background-image: url('../images/bgImg1.jpg');
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+
+#ctaHomePg {
+	padding: 13px;
+	font-size: 20px;
+	font-weight: bold;
+	width: 24%;
+	border-radius: 0;
+	background-color: #4FC857;
+	margin-top: 50px;
+}
+
+.homeHeaderRow {
+	margin-top: 270px;
+}
+
+.homeHeaderRow h1 {
+	color: white;
+	font-size: 60px;
+	font-weight: bolder;
+	letter-spacing: 2px;
+	font-family: monospace;
+}
+
+.homeHeaderRow h4 {
+	font-size: 25px;
+	color: white;
+	font-style: italic;
+	font-family: monospace;
+}
+
+
+/*//////END OF BACKGROUND SECTOR STYLES///////*/
+
+
+/*Video sector styles*/
+
+
+.vidContainer {
+	position: relative;
+	top: 670px;
+}
+
+.redLine {
+	width: 20%;
+	border-color: red;
+}
+
+.greySubHeader {
+	color: grey;
+}
+
+.greyParagraph {
+	color: #bdb8b8;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	font-size: 17px;
+}
+
+/*////////////END OF VIDEO SECTOR STYLES////////////////*/
+
+
+
