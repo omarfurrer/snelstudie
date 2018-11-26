@@ -8,11 +8,11 @@
     @method('PATCH')
     @endif
 
-    <div class="form-group required">
+    <div class="form-group">
         <label class="form-col-form-label" for="name">Name</label>
         <input class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}"
                id="name" name="name" type="text"
-               value="{{ old('name',isset($citiesVariable)? $citiesVariable->name : '') }}" required>
+               value="{{ old('name',isset($citiesVariable)? $citiesVariable->name : '') }}">
         <div class="invalid-feedback">{{ $errors->first('name') }}</div>
     </div>
 
