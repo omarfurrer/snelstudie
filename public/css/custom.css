@@ -78,6 +78,31 @@ body {
 /*//////END OF BACKGROUND SECTOR STYLES///////*/
 
 
+/*Video sector styles*/
+
+
+.vidContainer {
+	position: relative;
+	top: 670px;
+}
+
+.redLine {
+	width: 20%;
+	border-color: red;
+}
+
+.greySubHeader {
+	color: grey;
+}
+
+.greyParagraph {
+	color: #bdb8b8;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	font-size: 17px;
+}
+
+/*////////////END OF VIDEO SECTOR STYLES////////////////*/
 
 
 
