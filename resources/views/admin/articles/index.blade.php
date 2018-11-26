@@ -20,7 +20,7 @@
                             <th>Title</th>
                             <th>Slug</th>
                             <th>Content</th>
-                            <th>Description</th>
+                            <th>Meta Description</th>
                             <th>Actions</th>
                         </tr>
                     </thead>

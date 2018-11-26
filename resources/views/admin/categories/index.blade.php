@@ -19,8 +19,8 @@
                         <tr>
                             <th>Name</th>
                             <th>Slug</th>
-                            <th>Title</th>
-                            <th>Description</th>
+                            <th>Meta Title</th>
+                            <th>Meta Description</th>
                             <th>Actions</th>
                         </tr>
                     </thead>
