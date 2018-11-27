@@ -50,7 +50,7 @@
 			<h1>Translator</h1>
 		</div>
 		<div class="col-md-12">
-			<h5>= INNOVATION IN TRANSLATION =</h5>
+			<h5><small>= INNOVATION IN TRANSLATION =</small></h5>
 		</div>
 	</div>
 </div>
