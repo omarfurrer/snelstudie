@@ -40,7 +40,15 @@
 
 
 @push('scripts')
+<script>
+    
+            $(function () {
+                $(document).scroll(function () {
+                         $nav = $(".myNav");
+                        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+                });
+        });
 
 
-
+</script>
 @endpush
