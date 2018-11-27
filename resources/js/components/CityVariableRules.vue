@@ -48,8 +48,8 @@
                                 <label class="col-sm-2 col-form-label" for="city_id">City</label>
                                 <div class="col-sm-10">
                                     <select class="form-control" :class="{'is-invalid' : errors.has('city_id')}" id="city_id" v-model="createRule.city_id" required>
-                                            <option value="" selected>Select City</option>
-                                        <option v-for="(cityName,id) in citiesList" :key="id" :value="id">{{ cityName }}</option>
+                                            <option value="null" selected disabled hidden>Select City</option>
+                                        <option v-for="city in sortedCitiesList" :key="city.id" :value="city.id">{{ city.name }}</option>
                                     </select>
                                     <div v-if="errors.has('city_id')" class="invalid-feedback">{{ errors.get('city_id') }}</div>
                                 </div>
@@ -101,12 +101,22 @@
                         return 1;
                     return 0; //default return value (no sorting)
                 });
+            },
+            sortedCitiesList() {
+                return this.citiesList.sort(function (a, b) {
+                    var nameA = a.name.toLowerCase(), nameB = b.name.toLowerCase();
+                    if (nameA < nameB) //sort string ascending
+                        return -1;
+                    if (nameA > nameB)
+                        return 1;
+                    return 0; //default return value (no sorting)
+                });
             }
         },
         methods: {
             create() {
                 if (!this.citiesList.length) {
-                    axios.get('/ajax/admin/cities/lists')
+                    axios.get('/ajax/admin/cities')
                             .then(response => {
                                 this.citiesList = response.data.cities;
                             });
