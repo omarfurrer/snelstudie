@@ -37,20 +37,19 @@
 	</div>
 </div>
 
-@push('scripts')
+@endsection
 
+@push('scripts')
 <script>
 	
-	$(function () {
-		$(document).scroll(function () {
-			console.log("Mido");
-			 $nav = $(".myNav");
-			$nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-		});
-	});
+            $(function () {
+                $(document).scroll(function () {
+                        console.log("Mido");
+                         $nav = $(".myNav");
+                        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+                });
+        });
 
 
 </script>
-
 @endpush
-@endsection
