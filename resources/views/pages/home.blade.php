@@ -1,6 +1,9 @@
 @extends('layouts.main')
 
 @section('content')
+
+<!-- Home background sector --> 
+
 <div class="homeBgContainer container-fluid">
 	<div class="row text-center homeHeaderRow">
 		<div class="col-md-12">
@@ -14,6 +17,8 @@
 		</div>   
 	</div>
 </div>
+
+<!-- Video sector --> 
 
 <div class="container vidContainer">
 	<div class="row text-center">
@@ -37,19 +42,22 @@
 	</div>
 </div>
 
+<!-- panoramaImg sector --> 
+
+<div class="container-fluid panoramaImg">
+	<div class="row text-center">
+		<div class="col-md-12">
+			<h1>Translator</h1>
+		</div>
+		<div class="col-md-12">
+			<h5>= INNOVATION IN TRANSLATION =</h5>
+		</div>
+	</div>
+</div>
+
+
 @endsection
 
 @push('scripts')
-<script>
-	
-            $(function () {
-                $(document).scroll(function () {
-                        console.log("Mido");
-                         $nav = $(".myNav");
-                        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-                });
-        });
 
-
-</script>
 @endpush

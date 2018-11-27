@@ -11,7 +11,11 @@ body {
 }
 
 .myNav.scrolled .nav-link {
-  color:black;
+  color:black !important;
+}
+
+.myNav.scrolled .navbar-brand {
+  color:black !important;
 }
 
 .myNav {
@@ -96,7 +100,7 @@ body {
 }
 
 .greyParagraph {
-	color: #bdb8b8;
+	color: #6E7177;
 	margin-top: 20px;
 	margin-bottom: 50px;
 	font-size: 17px;
@@ -104,5 +108,26 @@ body {
 
 /*////////////END OF VIDEO SECTOR STYLES////////////////*/
 
+/*panoramaImg sector styles */
 
+.panoramaImg {
+	background-image: url('../images/img2.jpg');
+	height: -webkit-fill-available;
+	background-repeat: no-repeat;
+	position: relative;
+	top: 760px;
+	z-index: 2;
+}
+
+
+.panoramaImg h1 {
+	color: #FFF;
+	margin-top: 160px;
+}
+
+.panoramaImg h5 {
+	color: #F86263;
+}
+
+/*////////////END OF PANORAMA SECTOR STYLES////////////////*/
 
