@@ -55,6 +55,18 @@
 	</div>
 </div>
 
+<!-- team sector --> 
+<div class="container team">
+	<div class="row">
+		<div class="col-md-6">
+          <img src="../images/img3.jpg">
+		</div>
+		<div class="col-md-6">
+         <h5>THE TEAM AT TRANSLATION AGENCY TRANSLATOR</h5>
+         <p>Over the years, we have brought together a team of dedicated people, each an expert in their own field. Project managers who know how to select the right translators and coordinate projects. Translators who can translate anything and everything, reviewers who can spot the tiniest error, and advisers who can come up with efficient solutions for your documentation process. But whatever their role within our company, all our staff have one thing in common: they are all professionals with a passion for languages</p>
+		</div> 
+	</div>
+</div>
 
 @endsection
 

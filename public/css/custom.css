@@ -131,3 +131,27 @@ body {
 
 /*////////////END OF PANORAMA SECTOR STYLES////////////////*/
 
+/*team sector styles */
+
+.team {
+	position: relative; 
+	top: 690px;
+}
+
+.team img {
+      width: 95%;	
+}
+
+
+.team h5 {
+      color:#454545 ;
+      font-weight: bold;
+      margin-top: 100px;
+}
+
+.team p {
+      color:#6E7177 ;	
+      line-height: 2;
+}
+
+/*////////////END OF TEAM SECTOR STYLES////////////////*/
