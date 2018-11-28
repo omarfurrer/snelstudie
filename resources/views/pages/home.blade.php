@@ -72,20 +72,62 @@
 <div class="container-fluid counterContainer">
 	<div class="row text-center">
 		<div class="col-md-3 sideBorder">
-          <h1>26</h1>
-          <h4>YEARS OF EXPERIENCE</h4>
+			<h1>26</h1>
+			<h4>YEARS OF EXPERIENCE</h4>
 		</div>
 		<div class="col-md-3 sideBorder">
-          <h1>20,054,725</h1>
-          <h4>WORDS PER YEAR</h4>
+			<h1>20,054,725</h1>
+			<h4>WORDS PER YEAR</h4>
 		</div>
 		<div class="col-md-3 sideBorder">
-          <h1>974</h1>
-          <h4>NEW CUSTOMERS</h4>
+			<h1>974</h1>
+			<h4>NEW CUSTOMERS</h4>
 		</div>
 		<div class="col-md-3">
-          <h1>1,368</h1>
-          <h4>TRANSLATORS</h4>
+			<h1>1,368</h1>
+			<h4>TRANSLATORS</h4>
+		</div>
+	</div>
+</div>
+
+<!-- benefits sector --> 
+<div class="container-fluid benefitsContainer text-center">
+	<div class="row">
+		<div class="col-md-4">
+			<img src="../images/colPic.png" class="benefitsIcon" alt="euro sign icon">
+			<h4>Affordable prices</h4>
+			<p>Competitive rates and efficient solutions. Success guaranteed.</p>
+		</div>
+
+		<div class="col-md-4">
+			<img src="../images/colPic2.png" class="benefitsIcon" alt="euro sign icon">
+			<h4>Always on time</h4>
+			<p>A promise is a promise. We always keep our word, so you know you can rely on us.</p>
+		</div>
+
+		<div class="col-md-4">
+			<img src="../images/colPic3.png" class="benefitsIcon2" alt="euro sign icon">
+			<h4>Satisfaction guarantee</h4>
+			<p>We know how good our translators are. So we can guarantee you are going to be satisfied, or your money back!</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-4">
+			<img src="../images/colPic4.png" class="benefitsIcon3" alt="euro sign icon">
+			<h4>Experienced translators</h4>
+			<p>Professionals with a passion for languages. And naturally only native speakers.</p>
+		</div>
+
+		<div class="col-md-4">
+			<img src="../images/colPic5.png" class="benefitsIcon" alt="euro sign icon">
+			<h4>Personal contact</h4>
+			<p>Communication and service. Personal attention is the key to our success.</p>
+		</div>
+		
+		<div class="col-md-4">
+			<img src="../images/colPic6.png" class="benefitsIcon" alt="euro sign icon">
+			<h4>Satisfied customers</h4>
+			<p>Our No. 1 priority. For every project, large or small!</p>
 		</div>
 	</div>
 </div>
