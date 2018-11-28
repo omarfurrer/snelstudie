@@ -54,6 +54,11 @@ $(function () {
     $('.ideal-length input, .ideal-length text-area').keyup(function () {
         $(this).siblings('.input-length:first').text(this.value.length == 0 ? '' : '(' + this.value.length + ')');
     });
+
+    $('.star-rating-read-only').barrating({
+        theme: 'fontawesome-stars',
+        readonly: true
+    });
 });
         </script>
 

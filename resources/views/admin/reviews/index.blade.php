@@ -28,9 +28,17 @@
                         @foreach($reviews as $review)
                         <tr>
                             <td>{{ $review->name }}</td>
-                            <td>{{ $review->content }}</td>
-                            <td>{{ $review->rating }}</td>
-                            <td class="w-25">{{ $review->category == NULL ? '-' : $review->category->name }}</td>
+                            <td class="w-25">{{ $review->content }}</td>
+                            <td>
+                                <select class="star-rating-read-only">
+                                    <option {{ $review->rating == 1 ? 'selected' : '' }} value="1">1</option>
+                                    <option {{ $review->rating == 2 ? 'selected' : '' }} value="2">2</option>
+                                    <option {{ $review->rating == 3 ? 'selected' : '' }} value="3">3</option>
+                                    <option {{ $review->rating == 4 ? 'selected' : '' }} value="4">4</option>
+                                    <option {{ $review->rating == 5 ? 'selected' : '' }} value="5">5</option>
+                                </select>
+                            </td>
+                            <td>{{ $review->category == NULL ? '-' : $review->category->name }}</td>
                             <td>
                                 <a class="btn btn-info text-white" href="/admin/reviews/{{ $review->id }}/edit">
                                     <i class="fa fa-edit"></i>
