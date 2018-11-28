@@ -26,5 +26,6 @@ Route::prefix('admin')->namespace('Admin')->middleware('auth', 'role:admin')->gr
     Route::resource('/cities_variables', 'CitiesVariablesController');
     Route::resource('/categories', 'CategoriesController');
     Route::resource('/articles', 'ArticlesController');
+    Route::resource('/reviews', 'ReviewsController');
 });
 
