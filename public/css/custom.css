@@ -41,12 +41,11 @@ body {
 
 .homeBgContainer {
 	background-image: url('../images/bgImg1.jpg');
-	height: 100%;
+	background-repeat: round;
 	width: 100%;
+	min-height: 650px;
 	position: absolute;
 	top: 0;
-	left: 0;
-	z-index: 2;
 }
 
 #ctaHomePg {
@@ -55,12 +54,19 @@ body {
 	font-weight: bold;
 	width: 24%;
 	border-radius: 0;
-	background-color: #4FC857;
-	margin-top: 50px;
+	background-color: rgb(116, 219, 123);
+	margin-top: 6%;
+	border: none;
+}
+
+
+#ctaHomePg:hover {
+	background-color:#4FC857 ; 
+
 }
 
 .homeHeaderRow {
-	margin-top: 270px;
+	margin-top: 17%;
 }
 
 .homeHeaderRow h1 {
@@ -113,7 +119,7 @@ body {
 .panoramaImg {
 	background-image: url('../images/img2.jpg');
 	height: -webkit-fill-available;
-	background-repeat: no-repeat;
+	background-repeat: round;
 	position: relative;
 	top: 760px;
 	z-index: 2;
@@ -123,7 +129,7 @@ body {
 
 .panoramaImg h1 {
 	color: #FFF;
-	margin-top: 10%;
+	margin-top: 9%;
 }
 
 .panoramaImg h5 {

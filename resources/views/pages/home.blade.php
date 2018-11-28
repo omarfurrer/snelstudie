@@ -3,21 +3,21 @@
 @section('content')
 
 <!-- Home background sector --> 
-
-<div class="homeBgContainer container-fluid">
-	<div class="row text-center homeHeaderRow">
-		<div class="col-md-12">
-			<h1>Translator Translations</h1>
+<div class="absolute-wrapper homeBgContainer">
+	<div class="container-fluid">
+		<div class="row text-center homeHeaderRow">
+			<div class="col-md-12">
+				<h1>Translator Translations</h1>
+			</div>
+			<div class="col-md-12">
+				<h4>Professional translations at affordable prices</h4>
+			</div> 
+			<div class="col-md-12">
+				<button class="btn btn-success" id="ctaHomePg">Get A Quotation</button>
+			</div>   
 		</div>
-		<div class="col-md-12">
-			<h4>Professional translations at affordable prices</h4>
-		</div> 
-		<div class="col-md-12">
-			<button class="btn btn-success" id="ctaHomePg">Get A Quotation</button>
-		</div>   
 	</div>
 </div>
-
 <!-- Video sector --> 
 
 <div class="container vidContainer">
@@ -59,11 +59,11 @@
 <div class="container team">
 	<div class="row">
 		<div class="col-md-6">
-          <img src="../images/img3.jpg">
+			<img src="../images/img3.jpg">
 		</div>
 		<div class="col-md-6">
-         <h5>THE TEAM AT TRANSLATION AGENCY TRANSLATOR</h5>
-         <p>Over the years, we have brought together a team of dedicated people, each an expert in their own field. Project managers who know how to select the right translators and coordinate projects. Translators who can translate anything and everything, reviewers who can spot the tiniest error, and advisers who can come up with efficient solutions for your documentation process. But whatever their role within our company, all our staff have one thing in common: they are all professionals with a passion for languages</p>
+			<h5>THE TEAM AT TRANSLATION AGENCY TRANSLATOR</h5>
+			<p>Over the years, we have brought together a team of dedicated people, each an expert in their own field. Project managers who know how to select the right translators and coordinate projects. Translators who can translate anything and everything, reviewers who can spot the tiniest error, and advisers who can come up with efficient solutions for your documentation process. But whatever their role within our company, all our staff have one thing in common: they are all professionals with a passion for languages</p>
 		</div> 
 	</div>
 </div>
