@@ -26,7 +26,8 @@ class StoreArticleRequest extends FormRequest {
         return [
             'title' => 'required',
             'content' => 'required',
-            'meta_description' => 'nullable'
+            'meta_description' => 'nullable',
+            'category_id' => 'nullable|exists:categories,id'
         ];
     }
 

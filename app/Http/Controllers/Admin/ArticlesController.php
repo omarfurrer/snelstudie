@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Repositories\Interfaces\ArticlesRepositoryInterface;
+use App\Repositories\Interfaces\CategoriesRepositoryInterface;
 use App\Http\Requests\Articles\StoreArticleRequest;
 use App\Http\Requests\Articles\UpdateArticleRequest;
 use App\Models\Article;
@@ -17,13 +18,20 @@ class ArticlesController extends Controller {
     protected $articlesRepository;
 
     /**
+     * @var CategoriesRepositoryInterface 
+     */
+    protected $categoriesRepository;
+
+    /**
      * ArticlesController Constructor.
      * 
      * @param ArticlesRepositoryInterface $articlesRepository
+     * @param CategoriesRepositoryInterface $categoriesRepository
      */
-    public function __construct(ArticlesRepositoryInterface $articlesRepository)
+    public function __construct(ArticlesRepositoryInterface $articlesRepository, CategoriesRepositoryInterface $categoriesRepository)
     {
         $this->articlesRepository = $articlesRepository;
+        $this->categoriesRepository = $categoriesRepository;
     }
 
     /**
@@ -44,7 +52,8 @@ class ArticlesController extends Controller {
      */
     public function create()
     {
-        return view('admin.articles.create');
+        $categories = $this->categoriesRepository->lists();
+        return view('admin.articles.create', compact('categories'));
     }
 
     /**
@@ -67,7 +76,8 @@ class ArticlesController extends Controller {
      */
     public function edit(Article $article)
     {
-        return view('admin.articles.edit', compact('article'));
+        $categories = $this->categoriesRepository->lists();
+        return view('admin.articles.edit', compact('article', 'categories'));
     }
 
     /**

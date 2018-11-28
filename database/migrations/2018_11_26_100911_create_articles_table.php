@@ -20,6 +20,8 @@ class CreateArticlesTable extends Migration {
             $table->string('slug');
             $table->longText('content');
             $table->string('meta_description')->nullable();
+            $table->integer('category_id')->unsigned()->index()->nullable();
+            $table->foreign('category_id')->references('id')->on('categories')->onDelete('cascade');
             $table->timestamps();
         });
     }

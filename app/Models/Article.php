@@ -3,6 +3,7 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use App\Models\Category;
 
 class Article extends Model {
 
@@ -18,6 +19,16 @@ class Article extends Model {
      *
      * @var array
      */
-    protected $fillable = ['title', 'slug', 'content', 'meta_description'];
+    protected $fillable = ['title', 'slug', 'content', 'meta_description', 'category_id'];
+
+    /**
+     * An article belongs to a category.
+     *
+     * @return BelongsTo
+     */
+    public function category()
+    {
+        return $this->belongsTo(Category::class);
+    }
 
 }
