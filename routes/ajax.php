@@ -13,6 +13,6 @@
 
 Route::prefix('admin')->namespace('Api\Admin')->middleware('auth', 'role:admin')->group(function () {
     Route::apiResource('cities_variables.cities_variable_rules', 'CitiesVariableRulesController');
-    Route::get('cities/lists', 'CitiesController@lists');
+    Route::get('cities', 'CitiesController@index');
 });
 

@@ -24,13 +24,13 @@ class CitiesController extends Controller {
     }
 
     /**
-     * Return a list of cities and their ids as key.
+     * Return all cities.
      * 
      * @return \Illuminate\Http\JsonResponse
      */
-    public function lists()
+    public function index()
     {
-        $cities = $this->citiesRepository->lists();
+        $cities = $this->citiesRepository->all();
         return response()->json(compact('cities'));
     }
 

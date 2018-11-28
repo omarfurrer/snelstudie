@@ -50,6 +50,17 @@
         <small class="text-muted input-length"></small>
     </div>
 
+    <div class="form-group">
+        <label class="form-col-form-label" for="category_id">Category</label>
+        <select id="category_id" name="category_id" class="form-control{{ $errors->has('category_id') ? ' is-invalid' : '' }}">
+            <option value="">No Category</option>
+            @foreach($categories as $key => $name)
+            <option value="{{ $key }}" {{  old('category_id') != NULL ? (old('category_id') == $key ? 'selected' : '' ) : (isset($article)? ($article->category_id == $key ? 'selected' : '') :'')   }}>{{ $name }}</option>
+            @endforeach
+        </select>
+        <div class="invalid-feedback">{{ $errors->first('category_id') }}</div>
+    </div>
+
 </form>
 
 

@@ -18,6 +18,7 @@ try {
     const tinymce = require('tinymce/tinymce');
     // A theme is also required
     require('tinymce/themes/modern/theme');
+    require('jquery-bar-rating');
 } catch (e) {
 }
 

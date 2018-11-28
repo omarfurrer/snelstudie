@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Requests\Articles;
+namespace App\Http\Requests\Reviews;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class UpdateArticleRequest extends FormRequest {
+class UpdateReviewRequest extends FormRequest {
 
     /**
      * Determine if the user is authorized to make this request.
@@ -24,9 +24,9 @@ class UpdateArticleRequest extends FormRequest {
     public function rules()
     {
         return [
-            'title' => 'required',
-            'content' => 'required',
-            'meta_description' => 'nullable',
+            'name' => 'required|string',
+            'content' => 'required|string',
+            'rating' => 'required|integer|between:1,5',
             'category_id' => 'nullable|exists:categories,id'
         ];
     }

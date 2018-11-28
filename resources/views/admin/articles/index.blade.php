@@ -21,6 +21,7 @@
                             <th>Slug</th>
                             <th>Content</th>
                             <th>Meta Description</th>
+                            <th>Category</th>
                             <th>Actions</th>
                         </tr>
                     </thead>
@@ -31,6 +32,7 @@
                             <td>{{ $article->slug }}</td>
                             <td class="w-25">{{ str_limit($article->content) }}</td>
                             <td class="w-25">{{ $article->meta_description == NULL ? '-' : $article->meta_description }}</td>
+                            <td>{{ $article->category == NULL ? '-' : $article->category->name }}</td>
                             <td>
                                 <a class="btn btn-info text-white" href="/admin/articles/{{ $article->id }}/edit">
                                     <i class="fa fa-edit"></i>
