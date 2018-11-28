@@ -68,6 +68,28 @@
 	</div>
 </div>
 
+<!-- counter sector --> 
+<div class="container-fluid counterContainer">
+	<div class="row text-center">
+		<div class="col-md-3 sideBorder">
+          <h1>26</h1>
+          <h4>YEARS OF EXPERIENCE</h4>
+		</div>
+		<div class="col-md-3 sideBorder">
+          <h1>20,054,725</h1>
+          <h4>WORDS PER YEAR</h4>
+		</div>
+		<div class="col-md-3 sideBorder">
+          <h1>974</h1>
+          <h4>NEW CUSTOMERS</h4>
+		</div>
+		<div class="col-md-3">
+          <h1>1,368</h1>
+          <h4>TRANSLATORS</h4>
+		</div>
+	</div>
+</div>
+
 @endsection
 
 @push('scripts')
