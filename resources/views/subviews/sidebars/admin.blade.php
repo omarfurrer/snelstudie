@@ -21,6 +21,11 @@
                     <i class="nav-icon icon-note"></i> Articles
                 </a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/admin/reviews">
+                    <i class="nav-icon icon-star"></i> Reviews
+                </a>
+            </li>
             <li class="nav-item nav-dropdown">
                 <a class="nav-link nav-dropdown-toggle" href="#">
                     <i class="nav-icon icon-puzzle"></i> Variables</a>
