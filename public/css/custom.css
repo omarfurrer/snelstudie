@@ -4,6 +4,14 @@ body {
 	font-family: 'Open Sans', sans-serif;;
 }
 
+.mt-50 {
+	margin-top: 50px;
+}
+
+.mt-10 {
+	margin-top: 10px;
+}
+
 /*Navbar styles*/
 
 .myNav.scrolled {
@@ -262,3 +270,48 @@ body {
 }
 
 /*////////////END OF TAILOR SECTOR STYLES////////////////*/
+
+
+
+.homeCardsContainer {
+	position: relative;
+	top: 1150px;
+}
+
+.cardImg {
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.cardTitle {
+	color: #454545;
+	font-size: 1.23rem;
+	font-family: sans-serif;
+	margin-top: 15px;
+}
+
+.cardTitle:hover {
+	text-decoration: none;
+	color: #454545;
+}
+
+.cardParagraph {
+	color: #6E7177;
+	font-family: sans-serif;
+	font-size: .875rem;
+}
+
+.cardSmallText {
+	font-size: xx-small;
+	color: #6E7177;
+}
+
+.cardCta {
+	color: #FF6863;
+	font-size: .6875rem;
+}
+
+.cardCta:hover {
+	text-decoration: none;
+	color: #FF6863;
+}

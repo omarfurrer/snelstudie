@@ -100,32 +100,32 @@
 		</div>
 
 		<div class="col-md-4">
-			<img src="../images/colPic2.png" class="benefitsIcon" alt="euro sign icon">
+			<img src="../images/colPic2.png" class="benefitsIcon" alt="clock icon">
 			<h4>Always on time</h4>
 			<p>A promise is a promise. We always keep our word, so you know you can rely on us.</p>
 		</div>
 
 		<div class="col-md-4">
-			<img src="../images/colPic3.png" class="benefitsIcon2" alt="euro sign icon">
+			<img src="../images/colPic3.png" class="benefitsIcon2" alt="satisfaction icon">
 			<h4>Satisfaction guarantee</h4>
 			<p>We know how good our translators are. So we can guarantee you are going to be satisfied, or your money back!</p>
 		</div>
 	</div>
 	<div class="row">
 		<div class="col-md-4">
-			<img src="../images/colPic4.png" class="benefitsIcon3" alt="euro sign icon">
+			<img src="../images/colPic4.png" class="benefitsIcon3" alt="team icon">
 			<h4>Experienced translators</h4>
 			<p>Professionals with a passion for languages. And naturally only native speakers.</p>
 		</div>
 
 		<div class="col-md-4">
-			<img src="../images/colPic5.png" class="benefitsIcon" alt="euro sign icon">
+			<img src="../images/colPic5.png" class="benefitsIcon" alt="contact icon">
 			<h4>Personal contact</h4>
 			<p>Communication and service. Personal attention is the key to our success.</p>
 		</div>
 		
 		<div class="col-md-4">
-			<img src="../images/colPic6.png" class="benefitsIcon" alt="euro sign icon">
+			<img src="../images/colPic6.png" class="benefitsIcon" alt="check icon">
 			<h4>Satisfied customers</h4>
 			<p>Our No. 1 priority. For every project, large or small!</p>
 		</div>
@@ -149,6 +149,49 @@
 			</div>
 		</div>
 	</div>
+</div>
+
+<div class="container homeCardsContainer">
+	<div class="row text-center">
+		<div class="col-md-12">
+			<h1>OUR LATEST NEWS</h1>
+		</div>
+		<div class="col-md-12">
+			<hr class="redLine">
+		</div>
+		<div class="col-md-12">
+			<h2 class="greySubHeader">Recent developments inside our agency and within the translation world</h2>
+		</div>
+	</div>
+	<div class="row mt-50">
+		<div class="col-md-4">
+			<a href="#">
+				<img src="../images/cardImg1.jpg" class="cardImg">
+			</a>
+			<a href="#" class="cardTitle">About XTM Cloud 10</a>
+			<p class="cardSmallText">BY: MARÍA CRUZ,    17 MAART, 2017</p>
+			<p class="cardParagraph">XTM has increased its number of users in the past few years and is now a widely used CAT tool among translators and agencies. At Scriptware, we use this tool whenever possible in translation</p>
+			<a href="#" class="cardCta">READ MORE</a>
+		</div>
+		<div class="col-md-4">
+			<a href="#">
+				<img src="../images/cardImg2.jpg" class="cardImg">
+			</a>
+			<a href="#" class="cardTitle">3 Tips for the perfect website translation</a>
+			<p class="cardSmallText">BY: FRANK TER REEHORST,     2 APRIL, 2016</p>
+			<p class="cardParagraph">Would you like to open up an online store and cash in on the boom in internet trade? Then obviously you need a website translation that really hits the spot. After all, you only get one chance to make a first </p>
+			<a href="#" class="cardCta">READ MORE</a>
+		</div>
+		<div class="col-md-4">
+			<a href="#">
+				<img src="../images/cardImg3.jpg" class="cardImg">
+			</a>
+			<a href="#" class="cardTitle">Do we still need human translators?</a>
+			<p class="cardSmallText">BY: FRANK TER REEHORST,     2 APRIL, 2016</p>
+			<p class="cardParagraph">We hear the same question almost every day, from multinationals, legal firms, and manufacturing companies: "do we really need a professional translator?" A very good question, of course, especially </p>
+			<a href="#" class="cardCta">READ MORE</a>
+		</div>
+	</div> 
 </div>
 
 @endsection
