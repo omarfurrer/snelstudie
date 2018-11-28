@@ -13,7 +13,7 @@
 				<h4>Professional translations at affordable prices</h4>
 			</div> 
 			<div class="col-md-12">
-				<button class="btn btn-success" id="ctaHomePg">Get A Quotation</button>
+				<button class="btn btn-success" id="ctaHomePg">GET A QUOTATION</button>
 			</div>   
 		</div>
 	</div>
@@ -128,6 +128,25 @@
 			<img src="../images/colPic6.png" class="benefitsIcon" alt="euro sign icon">
 			<h4>Satisfied customers</h4>
 			<p>Our No. 1 priority. For every project, large or small!</p>
+		</div>
+	</div>
+</div>
+
+<!-- tailor sector -->
+
+<div class="container-fluid tailorContainer">
+	<div class="container">
+		<div class="row text-center">
+			<div class="col-md-12">
+				<h1>TAILOR-MADE SOLUTIONS FOR ALL YOUR TRANSLATION NEEDS</h1>
+			</div>
+			<div class="col-md-12">
+				<p>Need help with the translation of a simple text? Or have you got a complex situation with specific demands, like a Content Management System, simultaneous multilingual work flows, documents that need to be translated on a daily basis, or a team of proofreaders in different countries? Translation Agency Scriptware will be glad to help you manage the whole process efficiently and easily.</p>
+
+			</div>
+			<div class="col-md-12">
+				<button class="btn btn-success" id="ctaHomePg">MAKE AN APPOINTMENT</button>
+			</div>
 		</div>
 	</div>
 </div>

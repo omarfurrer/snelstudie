@@ -50,8 +50,7 @@ body {
 }
 
 #ctaHomePg {
-	padding: 13px;
-	font-size: 20px;
+	padding: 14px;
 	font-weight: bold;
 	width: 24%;
 	border-radius: 0;
@@ -195,6 +194,7 @@ body {
 
 /*////////////END OF COUNTER SECTOR STYLES////////////////*/
 
+
 /*benefits sector styles */
 
 .benefitsContainer {
@@ -233,3 +233,32 @@ body {
 	width: 17%;
 	margin-bottom: 20px;
 }
+
+/*////////////END OF BENEFITS SECTOR STYLES////////////////*/
+
+/*tailor sector styles */
+
+.tailorContainer {
+	position: relative;
+	top: 1050px;
+	background: url('../images/img4.jpg') no-repeat;
+	background-size: 100%;
+	height: -webkit-fill-available;
+	min-height: 690px;
+	
+}
+
+.tailorContainer h1 {
+	color: #FF6863;
+	margin-top: 18%;
+	margin-bottom: 3%;
+	font-size: 2.21rem;
+}
+
+.tailorContainer p {
+	color: #fff;
+	font-size: 1.5rem;
+	line-height: 1.7em;
+}
+
+/*////////////END OF TAILOR SECTOR STYLES////////////////*/
