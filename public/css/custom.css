@@ -271,7 +271,7 @@ body {
 
 /*////////////END OF TAILOR SECTOR STYLES////////////////*/
 
-
+/*cards sector styles */
 
 .homeCardsContainer {
 	position: relative;
@@ -316,6 +316,9 @@ body {
 	color: #FF6863;
 }
 
+/*////////////END OF CARDS SECTOR STYLES////////////////*/
+
+/*relax sector styles */
 
 .relaxContainer {
 	position: relative;
@@ -328,19 +331,61 @@ body {
 
 .relaxContainer h3 {
 	font-size: 30px;
-   margin-top: 15%;
-   font-family: sans-serif;
-   color: #fff;
+	margin-top: 15%;
+	font-family: sans-serif;
+	color: #fff;
 }
 
 .relaxContainer p {
-   color: #fff;
-   margin-top: 2%;
-   font-size: smaller;
-   font-family: sans-serif;
+	color: #fff;
+	margin-top: 2%;
+	font-size: smaller;
+	font-family: sans-serif;
 }
 
 
 .relaxContainer p span {
 	color: #FF6863;
+}
+
+/*////////////END OF RELAX SECTOR STYLES////////////////*/
+
+
+/*cta separator sector styles */
+
+.ctaSeparator {
+	position: relative;
+	top: 1250px;
+	background-color: #74db7b;
+	min-height: 150px;
+}
+
+.ctaSeparator .col-md-9 {
+	margin-top: 7%;
+}
+
+.ctaSeparator h3 {
+	font-family: sans-serif;
+	font-size: 33px;
+	color: #fff;
+}
+
+.ctaSeparator .col-md-3 {
+	margin-top: 6%;
+}
+
+.ctaFillLess {
+	background-color: transparent;
+	border: 2px solid #fff;
+	color: white;
+	font-family: monospace;
+	border-radius: 0px;
+	width: 100%;
+	line-height: 2.30rem;
+	font-family: 'open sans';
+}
+
+.ctaFillLess:hover {
+	background-color: #fff;
+	color: rgb(119, 119, 119);
 }
