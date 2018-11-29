@@ -315,3 +315,32 @@ body {
 	text-decoration: none;
 	color: #FF6863;
 }
+
+
+.relaxContainer {
+	position: relative;
+	top: 1250px;
+	background: url('../images/img5.jpg') no-repeat;
+	background-size: 100%;
+	height: -webkit-fill-available;
+	max-height: 380px;
+}
+
+.relaxContainer h3 {
+	font-size: 30px;
+   margin-top: 15%;
+   font-family: sans-serif;
+   color: #fff;
+}
+
+.relaxContainer p {
+   color: #fff;
+   margin-top: 2%;
+   font-size: smaller;
+   font-family: sans-serif;
+}
+
+
+.relaxContainer p span {
+	color: #FF6863;
+}

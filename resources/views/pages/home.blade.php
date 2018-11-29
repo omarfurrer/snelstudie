@@ -151,6 +151,8 @@
 	</div>
 </div>
 
+<!-- cards sector -->
+
 <div class="container homeCardsContainer">
 	<div class="row text-center">
 		<div class="col-md-12">
@@ -193,6 +195,21 @@
 		</div>
 	</div> 
 </div>
+
+<!-- relax sector -->
+
+<div class="container-fluid relaxContainer">
+	<div class="container">
+		<div class="row text-center">
+			<div class="col-md-12">
+				<h3>Mediazine is a dynamic magazine. Translation Agency Scriptware has supported our international growth every step of the way.</h3>
+			</div>
+			<div class="col-md-12">
+				<p><span>- MONIQUE HEMMES,</span> IMEDIATE</p>
+			</div>
+		</div>
+	</div>
+</div> 
 
 @endsection
 
