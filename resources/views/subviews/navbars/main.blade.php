@@ -2,52 +2,101 @@
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top myNav">
     <div class="container-fluid nbBrand">
         <a class="navbar-brand" href="{{ url('/') }}">
-           <big> Translator </big>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+         <big> Translator </big>
+     </a>
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <!-- Left Side Of Navbar -->
-            <ul class="navbar-nav">
-              
-            </ul>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- Left Side Of Navbar -->
+        <ul class="navbar-nav">
 
-            <!-- Right Side Of Navbar -->
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link myNavItem" href="#">PRODUCTS <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link myNavItem" href="#">CITIES <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link myNavItem" href="#">ABOUT US <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link myNavItem" href="#">CONTACT US <span class="sr-only">(current)</span></a>
-                </li> 
-                @guest
+        </ul>
 
-                @else
+        <!-- Right Side Of Navbar -->
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link myNavItem dropdown" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    PRODUCTS
+                </a>
+                <div class="dropdown-menu myDropMenu" aria-labelledby="navbarDropdown">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6" style="border-right: 1px solid rgb(172, 172, 172)">
+                              <a class="dropdown-item myDropItem" href="#">PRODUCT 1</a>
+                              <a class="dropdown-item myDropItem" href="#">PRODUCT 2</a>
+                              <a class="dropdown-item myDropItem" href="#">PRODUCT 3</a>
+                              <a class="dropdown-item myDropItem" href="#">PRODUCT 3</a>
+                              <a class="dropdown-item myDropItem" href="#">PRODUCT 3</a>
+                          </div>
+                          <div class="col-md-6">
+                              <a class="dropdown-item myDropItem" href="#">PRODUCT 1</a>
+                              <a class="dropdown-item myDropItem" href="#">PRODUCT 2</a>
+                              <a class="dropdown-item myDropItem" href="#">PRODUCT 3</a>
+                              <a class="dropdown-item myDropItem" href="#">PRODUCT 3</a>
+                              <a class="dropdown-item myDropItem" href="#">PRODUCT 3</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </li>
+          <li class="nav-item dropdown">
+                <a class="nav-link myNavItem dropdown" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    CITIES
+                </a>
+                <div class="dropdown-menu myDropMenu" aria-labelledby="navbarDropdown">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6" style="border-right: 1px solid rgb(172, 172, 172)">
+                              <a class="dropdown-item myDropItem" href="#">CITY 1</a>
+                              <a class="dropdown-item myDropItem" href="#">CITY 2</a>
+                              <a class="dropdown-item myDropItem" href="#">CITY 3</a>
+                              <a class="dropdown-item myDropItem" href="#">CITY 3</a>
+                              <a class="dropdown-item myDropItem" href="#">CITY 3</a>
+                          </div>
+                          <div class="col-md-6">
+                              <a class="dropdown-item myDropItem" href="#">CITY 1</a>
+                              <a class="dropdown-item myDropItem" href="#">CITY 2</a>
+                              <a class="dropdown-item myDropItem" href="#">CITY 3</a>
+                              <a class="dropdown-item myDropItem" href="#">CITY 3</a>
+                              <a class="dropdown-item myDropItem" href="#">CITY 3</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </li>
 
-                @endguest
-            </ul>
-        </div>
-    </div>
+        <li class="nav-item">
+            <a class="nav-link myNavItem" href="#">ABOUT US <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link myNavItem" href="#">CONTACT US <span class="sr-only">(current)</span></a>
+        </li> 
+        <li class="nav-item">
+            <a class="nav-link myNavItem" href="#">HOW IT WORKS <span class="sr-only">(current)</span></a>
+        </li>
+        @guest
+
+        @else
+
+        @endguest
+    </ul>
+</div>
+</div>
 </nav>
 
 
 @push('scripts')
 <script>
-    
-            $(function () {
-                $(document).scroll(function () {
-                         $nav = $(".myNav");
-                        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-                });
-        });
+
+    $(function () {
+        $(document).scroll(function () {
+           $nav = $(".myNav");
+           $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+       });
+    });
+
 
 
 </script>
