@@ -12,6 +12,85 @@ body {
 	margin-top: 10px;
 }
 
+
+/*footer styles*/
+
+.myfooter {
+	position: relative;
+	top: 1208px;
+	min-height: 60px;
+	background-color:#222 ;
+	color:#7a7a7a;
+	padding: 3%;
+}
+
+.footerSmallLinks {
+	font-size: 11px;
+	margin-right: 4px;
+}
+
+.footerSmallText {
+	font-size: 9px;
+}
+
+.myfooter a{
+	text-decoration: none;
+	color: #7a7a7a;
+}
+
+.preFooterContainer {
+	background-color: #252525;
+	margin-top: 1.0625rem;
+	max-height: 320px;
+	position: relative;
+	top: 1208px;
+	padding: 3%;
+}
+
+.preFooterContainer h5 {
+	color: #fff;
+	margin-top: 5%;
+}
+
+.preFooterContainer p {
+	color: #a0a0a0;
+	line-height: 3.1831em;
+	font-family: sans-serif;
+}
+
+.thumImg {
+	display: inline-block;
+	margin: .125rem;
+}
+
+.imgThumbDiv {
+	width: 70%;
+	margin-top: 7%;
+}
+
+.latestNewsLink {
+	text-decoration: none;
+	color: #a0a0a0;
+}
+
+.latestNewsLink:hover {
+	color: #FF6863;
+	text-decoration: none;
+}
+
+.latestNewsP {
+	font-size: x-small;
+}
+
+.brandHead {
+	color: #fff;
+	font-size: 33px;
+	margin-top: 20%;
+}
+
+.brandPar {
+	font-size: x-small;
+}
 /*Navbar styles*/
 
 .myNav.scrolled {
@@ -326,7 +405,7 @@ body {
 	background: url('../images/img5.jpg') no-repeat;
 	background-size: 100%;
 	height: -webkit-fill-available;
-	max-height: 380px;
+	min-height: 400px;
 }
 
 .relaxContainer h3 {
@@ -357,21 +436,22 @@ body {
 	position: relative;
 	top: 1250px;
 	background-color: #74db7b;
-	min-height: 150px;
+	min-height: 160px;
 }
 
 .ctaSeparator .col-md-9 {
-	margin-top: 7%;
+	margin-top: 5%;
 }
 
 .ctaSeparator h3 {
 	font-family: sans-serif;
 	font-size: 33px;
 	color: #fff;
+	line-height: 3.1rem
 }
 
 .ctaSeparator .col-md-3 {
-	margin-top: 6%;
+	margin-top: 5%;
 }
 
 .ctaFillLess {
