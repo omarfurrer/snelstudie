@@ -101,8 +101,16 @@ body {
 	transition: background-color 200ms linear;
 }
 
+.fa.fa-bars {
+	color: #fff;
+}
+
 .myNav.scrolled .nav-link {
 	color:#454545 !important;
+}
+
+.myNav.scrolled .fa.fa-bars {
+	color: #454545;
 }
 
 .myNav.scrolled .navbar-brand {
@@ -142,13 +150,13 @@ body {
 
 
 .myDropItem:hover {
-    background-color: #FF6863;
+	background-color: #FF6863;
 }
 
 .dropdown:hover .dropdown-menu {
-    display: block;
-    margin-top: 0; // remove the gap so it doesn't close
- }
+	display: block;
+	margin-top: 0; // remove the gap so it doesn't close
+}
 
 
 /*/////END OF NAVBAR STYLES//////////*/
@@ -497,4 +505,134 @@ body {
 .ctaFillLess:hover {
 	background-color: #fff;
 	color: rgb(119, 119, 119);
+}
+
+/*MEDIA QUERIES*/
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+
+	.myNav.clicked {
+		background-color:#222;
+		text-align: center;
+		padding-bottom: 100%;
+	}
+
+	.myNav.clicked .nav-link {
+		color: #fff;
+		padding: 5%;
+		border-bottom:1px solid #fff;
+		display: inline-block;
+	}
+
+
+	.homeBgContainer h1 {
+		margin-top: 40%;
+		font-size: 32px;
+	}
+
+	.homeBgContainer h4 {
+		font-size: 13px;
+	}
+
+	#ctaHomePg {
+		width: 63%;
+		padding: 11px;
+	}
+
+	.greyParagraph {
+		font-size: 14px;
+		line-height: 2.2rem;
+	}
+
+	.vidContainer h1 {
+		font-size: 30px;
+	}
+
+	.greySubHeader {
+		font-size: 20px;
+	}
+
+	.panoramaImg {
+		max-height: 240px;
+	}
+
+	.panoramaImg h1 {
+		margin-top: 29%;
+		font-size: x-large;
+	}
+
+	.panoramaImg small {
+		font-size: 60%;
+	}
+
+	.team {
+		text-align: center;
+	}
+
+
+	.sideBorder {
+		border-right: none;
+		margin-bottom: 5%;
+	}
+
+	.tailorContainer h1 {
+
+		font-size: 1.21rem;
+	}
+
+	.tailorContainer {
+		background-size: cover;
+	}
+
+	.tailorContainer p {
+		font-size: 0.9rem;
+		line-height: 2.7em;
+	}
+
+	.homeCardsContainer .col-md-4 {
+		margin-bottom: 15%;
+	}
+
+	.relaxContainer {
+		background:url(../images/img5Mob.jpg) no-repeat;
+		height: 330px;
+		top: 1150px;
+	}
+
+	.relaxContainer h3 {
+		font-size: 20px;
+		margin-top: 23%;
+	}
+
+	.relaxContainer p {
+		font-size: xx-small;
+	}
+
+	.ctaSeparator {
+		text-align: center;
+		top: 1150px;
+		min-height: 300px; 
+	}
+
+	.ctaSeparator h3 {
+		font-size: 28px;
+	}
+
+	.preFooterContainer {
+		max-height: 100%;
+		top:1108px;
+	}
+
+	.myfooter {
+		top: 1108px;
+	}
+
+	.footerSmallLinks {
+		font-size: 8px;
+	}
+
+	.footerSmallText {
+		margin-top: 2%;
+	}
+
 }

@@ -4,8 +4,8 @@
         <a class="navbar-brand" href="{{ url('/') }}">
          <big> Translator </big>
      </a>
-     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
-        <span class="navbar-toggler-icon"></span>
+     <button class="navbar-toggler togBtn" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
+        <span><i class="fa fa-bars"></i></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -96,6 +96,13 @@
            $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
        });
     });
+
+    $(document).ready(function(){
+   $('.togBtn').click(function(){
+       $nav = $(".myNav");
+       $nav.toggleClass('clicked');
+   });
+});
 
 
 
