@@ -509,20 +509,25 @@ body {
 
 /*MEDIA QUERIES*/
 
+.myNav.clicked {
+	background-color:#222;
+	text-align: center;
+	padding-bottom: 100%;
+}
+
+.myNav.clicked .nav-link {
+	color: #fff;
+	padding: 5%;
+	border-bottom:1px solid #fff;
+	display: inline-block;
+}
+
+
+
+/*MEDIA QUERIES ---- - - - - Iphone 6,7,8*/
 @media only screen and (max-width: 767px) and (orientation: portrait) {
 
-	.myNav.clicked {
-		background-color:#222;
-		text-align: center;
-		padding-bottom: 100%;
-	}
-
-	.myNav.clicked .nav-link {
-		color: #fff;
-		padding: 5%;
-		border-bottom:1px solid #fff;
-		display: inline-block;
-	}
+	
 
 
 	.homeBgContainer h1 {
@@ -634,5 +639,92 @@ body {
 	.footerSmallText {
 		margin-top: 2%;
 	}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width:1024px){
+
+	.counterContainer h4 {
+		font-size: 13px;
+	}
+
+	.counterContainer h1 {
+		font-size: 28px;
+	}
+
+	.tailorContainer {
+		padding-bottom: 10%;
+	}
+
+	.tailorContainer h1 {
+		margin-top: 6%;
+		margin-bottom: 2%;
+		font-size: 26px;
+	}
+
+	.tailorContainer p {
+		font-size: 18px;
+	}
+
+	#ctaHomePg {
+		width: 35%;
+	}
+
+	.homeCardsContainer {
+		top: 613px;
+	}
+
+	.relaxContainer {
+		top: 680px;
+	}
+
+	.ctaSeparator {
+		top: 613px;
+	}
+
+	.imgThumbDiv {
+		width: 100%;
+	}
+
+	.preFooterContainer p {
+		font-size: 11px;
+	}
+
+	.preFooterContainer {
+		top: 571px;
+		max-height: 100%;
+	}
+	
+
+	.brandPar {
+		font-size: xx-small !important;
+	}
+
+	.myfooter {
+		top: 968px;
+	}
+
+
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1124px){
+
+	.homeCardsContainer {
+		top: 360px;
+	}
+
+	.relaxContainer {
+		top: 392px;
+	}
+
+	.ctaSeparator {
+		top: 381px;
+	}
+
+	.preFooterContainer {
+		top: 340px;
+	}
+
 
 }
