@@ -93,7 +93,7 @@
 
 	<div class="container-fluid staticBgContainerB">
 	</div>
-    
+
 
 
 	<div class="row mt-5">
@@ -110,7 +110,6 @@
 
 		<hr class="preFooterHr">
 	</div>
-
 </div>
 
 @endsection

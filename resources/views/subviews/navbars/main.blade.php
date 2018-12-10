@@ -20,7 +20,7 @@
 
         <!-- Right Side Of Navbar -->
         <ul class="navbar-nav ml-auto">
-          
+
           <li class="nav-item">
             <a class="nav-link myNavItem" href="#">Blog <span class="sr-only">(current)</span></a>
           </li>
@@ -40,7 +40,7 @@
             <a class="nav-link myNavItem" href="#">My Account <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link myNavItem" href="#"><i class="fa fa-search"></i> <span class="sr-only">(current)</span></a>
+            <a class="nav-link myNavItem"  data-toggle="modal" data-target="#exampleModal1" href="#"><i class="fa fa-search"></i> <span class="sr-only">(current)</span></a>
           </li>
           @guest
 
@@ -53,6 +53,28 @@
   </div>
 </nav>
 
+<div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="container myModal">
+    <div class="row">
+      <div class="col-md-12 mt-2">
+        <button type="button" class="pull-right closeCta" data-dismiss="modal"><i class="fa fa-close"></i>
+        </button>
+      </div>
+      <div class="col-md-12">
+        <h4>Type in your keyword and press enter to search Copyblogger.com:</h4>
+      </div>
+
+      <div class="col-md-12">
+        <form>
+          <button class="btn pull-right searchCta">Search</button>
+          <input type="search" placeholder="Search Copyblogger" name="searchInput">
+        </form>
+      </div>
+
+    </div>
+  </div>
+</div>
+
 
 @push('scripts')
 <script>
@@ -64,14 +86,13 @@
    });
   });
 
+
+
   $(document).ready(function(){
-   $('.togBtn').click(function(){
-     $nav = $(".myNav");
-     $nav.toggleClass('clicked');
+   $('.closeCta').click(function(){
+    $("#exampleModal1").hide();
    });
  });
-
-
 
 </script>
 @endpush
