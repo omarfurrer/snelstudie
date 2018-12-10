@@ -1,0 +1,407 @@
+body {
+	background-color: #fff;
+}
+
+.mt-5 {
+	margin-top: 5%;
+}
+.mt-2 {
+	margin-top: 2%;
+}
+
+.mt-15 {
+	margin-top: 15%;
+}
+
+/*navbar*/
+
+.myNav {
+	background-color: #f9f9f9;
+	height: 80px;
+	z-index: 2;
+}
+
+
+
+.navbarLogo {
+	width: 60%;
+	margin-top: 2%;
+}
+
+.myNav .navbar-nav .nav-link {
+	color:#546E7A;
+	font-family: 'Alef', sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	padding-right: 22px;
+}
+
+.myNav .navbar-nav .nav-link:hover {
+	color: blue;
+}
+
+
+/*static bg container*/
+
+.staticBgContainer {
+	background-color: #f9f9f9;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	min-height: 600px;
+}
+
+
+/*Hero*/
+
+.hero h1 {
+	font-size: 5rem;
+	font-weight: bold;
+	margin-top: 5%;
+}
+
+.whiteRotateBox {
+	background-color: #fff;
+	width: 191px;
+	height: 408px;
+	position: absolute;
+	top: 400px;
+	left: 0px;
+	transform: rotate(128deg);
+}
+
+.imgBox {
+	background-color: #0066CC;
+	background-image: url(../images/heroImg.jpg);
+	background-image: url(../images/heroImg.jpg), linear-gradient(-14deg, #0066CC 0%, #6B41FF 100%);
+	background-size: cover;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	box-shadow: 0 10px 60px 0 rgba(0,102,204,0.18);
+	border-radius: 5px;
+	color: #fff;
+	padding: 25px 30px;
+	position: relative;
+	text-align: center;
+	margin-top: 15%;
+}
+
+.imgBox h4 {
+	color: #fff;
+	padding:3%;
+	position: relative;
+	font-size: 20px;
+	font-weight: bold;
+	font-size: 23px;
+}
+
+
+.imgBox:before {
+	background-image: linear-gradient(-14deg, #0066CC 0%, #6B41FF 100%);
+	border-radius: 5px;
+	content: '';
+	height: 100%;
+	opacity: 0.8;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	z-index: 0;
+}
+
+.imgBoxBtn {
+	background-color: #fff;
+	border: none;
+	color: #263238;
+	border-radius: 35px;
+	padding: 16px 32px 14px;
+	position: relative;
+	margin-bottom: 2%;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.imgBoxBtn:hover {
+	background-color: #263238;
+	color: #fff;
+}
+
+.postImgLink {
+	color: #8FA4AD;
+	font-size: smaller;
+	text-decoration: none;
+	margin-top: 2%;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+.postImgLink:hover {
+	color: black;
+	text-decoration: none;
+}
+
+.linkParent {
+	margin-top: 5%;
+	text-align: center;
+}
+
+.sharesNo {
+	color: #0066cc;
+	font-size: 22px;
+	margin:0;
+	font-weight: bold;
+}
+
+.shares {
+	color:#546E7A;
+	font-size: 13px !important;
+	margin:-6px;
+}
+
+.sharesDiv:before {
+	background-color: #CFD8DC;
+	content: '';
+	display: block;
+	height: 35px;
+	left: auto;
+	right: 0px;
+	position: absolute;
+	transform: rotate(10deg);
+	top: 9px;
+	width: 1px;
+}
+
+
+.avatar {
+	border-radius: 50%;
+	margin: 13%;
+	margin-top: 20%;
+}
+
+.greyText {
+	color: #546E7A;
+	margin-right: 3px;
+}
+
+.blackText {
+	color: black;
+	font-weight: bold;
+}
+
+.cardHeadTextUl li {
+	display: inline-block;
+}
+
+.cardHeadTextUl {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.cardHeadTextDiv {
+	margin-top: 2%;
+}
+
+.blackText a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.blackText:hover {
+	text-decoration: none;
+}
+
+.zigzagHeader {
+	text-decoration: none;
+	color: inherit;
+	font-size: 40px;
+	font-weight: bolder;
+	line-height: 68px;
+}
+
+.zigzagHeader:hover {
+	text-decoration: none;
+	color: #0066CC;
+}
+
+.tagsDiv {
+	margin-top: 4%;
+	display: inline-block;
+}
+
+.tagsDiv a {
+	text-decoration: none;
+	color: inherit;
+	display: inline-block;
+	background-color: #F5F7F8; 
+	padding: 3px 5px 1px;
+}
+
+.tagsDiv a:hover {
+	text-decoration: none;
+}
+
+.blueBorderBtn {
+	border-radius: 50px;
+	border:2px solid blue;
+	background-color: #fff;
+	padding: 9px 20px 7px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.blueBorderBtn:hover {
+	color: #fff;
+	background-color: blue;
+}
+
+.zigzagSubHeader {
+	margin-top: 8%;
+	margin-bottom: 8%;
+	font-size: 22px;
+}
+
+
+
+
+
+.myCard {
+	border: 1px solid #E7EBED;
+	border-radius: 5px;
+	padding: 40px
+}
+
+.cardAuth {
+	width: max-content;
+	margin-top: 50%;
+}
+
+.cardAuth a {
+	color: inherit;
+	text-decoration: none;
+	font-weight: bolder;
+}
+
+.cardAuth a:hover {
+	text-decoration: none;
+}
+
+.smallCardText {
+	margin-top: 5%;
+	font-size: 30px;
+	font-weight: bolder;
+	line-height: 44px;
+}
+
+.bigCard2 {
+	padding-left: 8%;
+}
+
+
+.myPagi {
+	padding-left: 18%;
+}
+
+.myPagiLink {
+	border:none;
+	color: #546E7A;
+	cursor: pointer;
+	display: inline-block;
+	font-family: 'museo-sans', sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	margin-bottom: 4px;
+	padding: 3px 7px;
+	text-decoration: none;
+}
+
+.myPagiLink:hover {
+	color: blue;
+	background-color: transparent;
+} 
+
+.myPagiLink.active {
+	color: blue;
+	border-bottom: 3px solid blue;
+}
+
+.myPagiBtn {
+	background: none;
+	border: 2px solid #CFD8DC;
+	color: #263238;
+	border-radius: 35px !important;
+	width: auto;
+	font-weight: 600;
+	padding: 7px 14px 5px;
+	margin-left: 10px;
+}
+
+.myPagiBtn:hover {
+	box-shadow: 0 2px 15px 0 rgba(84,110,122,0.15);
+	transform: translateY(-1px);
+	background-color: transparent;
+}
+
+.preFooter h1 {
+	font-weight: bold;
+	font-size: 57px;
+	line-height: 60px;
+	padding-left: 10%;
+}
+
+.preFooterHr {
+	width: 15%;
+	color: #546E7A;
+	position: relative;
+	margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.staticBgContainerB {
+	background-color: #f9f9f9;
+    position: absolute;
+    left: 0px;
+    min-height: 500px;
+    margin-top: 13%;
+}
+
+.whiteRotateBox2 {
+	background-color: #fff;
+	width: 191px;
+	height: 408px;
+	position: absolute;
+	right: 0px;
+	transform: rotate(128deg);
+}
+
+.myFooter {
+	position: relative;
+}
+
+.myFooter p {
+	font-size: 12px;
+}
+
+.myFooter p a{
+	text-decoration: none;
+	color: blue;
+}
+
+.myFooter p a:hover{
+	color: inherit;
+}
+
+.footerNav {
+	display: inline-block;
+}
+
+.footerNav a {
+	display: inline-block;
+	color: inherit;
+	text-decoration: none;
+	padding-left: 25px;
+}
+
+.footerNav a:hover {
+	color: blue;
+}
+
