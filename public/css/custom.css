@@ -21,6 +21,10 @@ body {
 	z-index: 2;
 }
 
+	.searchMobLi {
+		display: none;
+	}
+
 
 
 .navbarLogo {
@@ -487,11 +491,15 @@ body {
 /*MEDIA QUERIES */
 /* smartphones, iPhone, portrait 480x320 phones */
 
-@media (min-width:320px)  { 
+@media (min-width:320px) and (max-width: 481px)  { 
 
 	.fa.fa-bars {
 		color: black;
 		font-size: 15px;
+	}
+
+	.testNavCol {
+		margin-top: -9%;
 	}
 
 	.hero h1 {
@@ -542,6 +550,8 @@ body {
 		border-bottom: 1px solid #eee;
 	}
 
+
+
 	.noMob {
 		display: none;
 	}
@@ -570,6 +580,7 @@ body {
 
 	.searchMobLi {
 		border:none !important;
+		display: block;
 	}
 
 }

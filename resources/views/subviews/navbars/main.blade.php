@@ -3,13 +3,15 @@
   <div class="container">
     <div class="container-fluid nbBrand">
       <div class="row">
-        <div class="col-md-3 col-sm-12">
+        <div class="col-md-3">
           <a class="navbar-brand" href="{{ url('/') }}">
            <img class="navbarLogo" src="../images/logo.png">
          </a>
-         <button class="navbar-toggler myNavTogBtn togBtn" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
-          Menu <span><i class="fa fa-bars"></i></span>
-        </button>
+         <div class="col-md-3 testNavCol">
+           <button class="navbar-toggler pull-right myNavTogBtn togBtn" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
+            Menu <span><i class="fa fa-bars"></i></span>
+          </button>
+        </div>
       </div>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
