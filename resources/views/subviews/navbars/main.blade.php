@@ -3,14 +3,14 @@
   <div class="container">
     <div class="container-fluid nbBrand">
       <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-3 col-sm-12">
           <a class="navbar-brand" href="{{ url('/') }}">
            <img class="navbarLogo" src="../images/logo.png">
          </a>
-       </div>
-       <button class="navbar-toggler togBtn" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
-        <span><i class="fa fa-bars"></i></span>
-      </button>
+         <button class="navbar-toggler myNavTogBtn togBtn" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
+          Menu <span><i class="fa fa-bars"></i></span>
+        </button>
+      </div>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <!-- Left Side Of Navbar -->
@@ -39,8 +39,20 @@
           <li class="nav-item">
             <a class="nav-link myNavItem" href="#">My Account <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item noMob">
             <a class="nav-link myNavItem"  data-toggle="modal" data-target="#exampleModal1" href="#"><i class="fa fa-search"></i> <span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item text-center searchMobLi">
+            <form> 
+
+              <span class="sr-only">(current)</span>
+
+              <input type="search" id="searchMob" name="searchMob" placeholder="Search Copyblogger...">
+
+              <input type="submit" id="searchMobCta" value="Search"> 
+
+            </form>
           </li>
           @guest
 
@@ -91,7 +103,7 @@
   $(document).ready(function(){
    $('.closeCta').click(function(){
     $("#exampleModal1").hide();
-   });
+  });
  });
 
 </script>

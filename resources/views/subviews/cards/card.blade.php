@@ -5,12 +5,12 @@
 			<p class="sharesNo">52</p>
 			<p class="shares">Shares</p>
 		</div>	
-		<div class="col-md-2">
+		<div class="col-md-2 smallCardAvatarDiv">
 			<a href="#">
 				<img class="avatar" src="../images/avatar.png">
 			</a>
 		</div>
-		<div class="col-md-2">
+		<div class="col-md-2 smallCardAuthName">
 			<p class="cardAuth">
 				<a href="#">
 					Sonia Simone

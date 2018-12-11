@@ -4,7 +4,7 @@
 						<p class="sharesNo">52</p>
 						<p class="shares">Shares</p>
 					</div>
-					<div class="col-md-1">
+					<div class="col-md-1 bigCardAvatarDiv">
 						<a href="#">
 							<img class="avatar" src="../images/avatar.png">
 						</a>
