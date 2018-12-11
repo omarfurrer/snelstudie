@@ -16,6 +16,8 @@ Route::get('/about-us', 'PagesController@getAboutUs');
 Route::get('/contact-us', 'PagesController@getContactUs');
 Route::get('/how-it-works', 'PagesController@getHowItWorks');
 
+Route::get('/articles/{article}', 'ArticlesController@show');
+
 Auth::routes();
 
 Route::redirect('/admin', '/admin/dashboard', 301);
