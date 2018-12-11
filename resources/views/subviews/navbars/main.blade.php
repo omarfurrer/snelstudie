@@ -7,7 +7,7 @@
           <a class="navbar-brand" href="{{ url('/') }}">
            <img class="navbarLogo" src="../images/logo.png">
          </a>
-         <div class="col-md-3 testNavCol">
+         <div class="col-md-3 testCol">
            <button class="navbar-toggler pull-right myNavTogBtn togBtn" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
             Menu <span><i class="fa fa-bars"></i></span>
           </button>

@@ -360,22 +360,7 @@ body {
 	margin-bottom: 5%;
 }
 
-.staticBgContainerB {
-	background-color: #f9f9f9;
-	position: absolute;
-	left: 0px;
-	min-height: 500px;
-	margin-top: 13%;
-}
 
-.whiteRotateBox2 {
-	background-color: #fff;
-	width: 191px;
-	height: 408px;
-	position: absolute;
-	right: 0px;
-	transform: rotate(128deg);
-}
 
 .myFooter {
 	position: relative;
