@@ -21,9 +21,9 @@ body {
 	z-index: 2;
 }
 
-	.searchMobLi {
-		display: none;
-	}
+.searchMobLi {
+	display: none;
+}
 
 
 
@@ -483,14 +483,23 @@ body {
 /*MEDIA QUERIES */
 /* smartphones, iPhone, portrait 480x320 phones */
 
-@media (min-width:320px) and (max-width: 481px)  { 
+@media (min-width:361px) and (max-width: 481px)  { 
+
+	.myCard {
+		margin-top: 3%;
+	}
+
+	.staticBgContainerB {
+		min-height: 1200px;
+	}
+
 
 	.fa.fa-bars {
 		color: black;
 		font-size: 15px;
 	}
 
-	.testNavCol {
+	.testCol {
 		margin-top: -9%;
 	}
 
@@ -574,5 +583,112 @@ body {
 		border:none !important;
 		display: block;
 	}
+
+}
+
+@media (min-width:320px) and (max-width: 360px) {
+	.fa.fa-bars {
+		color: black;
+		font-size: 15px;
+	}
+
+	.myCard {
+		margin-top: 10%;
+	}
+
+	.testNavCol {
+		margin-top: -9%;
+	}
+
+	.staticBgContainerB {
+		min-height: 1200px;
+	}
+
+	.hero h1 {
+		font-size: 31px;
+	}
+
+	.sharesDiv {
+		width: 2%; 
+	}
+
+	.sharesDiv:before {
+		left: 200%;
+	}
+
+	.bigCardAvatarDiv {
+		padding-left: 36px;
+		width: 22%;
+	}
+
+	.smallCardAvatarDiv {
+		width: 28%;
+		padding-left: 15%;
+	}
+
+	.smallCardAuthName {
+		width: 20%;
+	}
+
+	.preFooter h1 {
+		font-size: 45px;
+	}
+
+	.myNav {
+		height: 100%;
+	}
+
+	.testCol {
+		margin-top: -11%;
+	}
+
+	.myNav .navbar-nav .nav-link {
+		border: none;
+		color: #111;
+		font-size: 18px;
+		margin-bottom: 1px;
+		padding: 15px 0;
+		width: 100%;
+
+	}
+
+	.myNav li {
+		border-bottom: 1px solid #eee;
+	}
+
+
+
+	.noMob {
+		display: none;
+	}
+
+	#searchMob {
+		background-color: #fff;
+		border-radius: 30px;
+		border: 2px solid #CFD8DC;
+		color: #111;
+		font-size: 17px;
+		margin-top: 15px;
+		padding: 20px;
+		width: 90%;
+	}
+
+	#searchMobCta {
+
+		background-color: #111;
+		color: #fff;
+		padding: 16px 32px 14px;
+		border-radius: 35px;
+		position: relative;
+		bottom: 63px;
+		left: 107px;
+	}	
+
+	.searchMobLi {
+		border:none !important;
+		display: block;
+	}
+
+	
 
 }
