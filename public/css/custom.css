@@ -360,6 +360,13 @@ body {
 	margin-bottom: 5%;
 }
 
+.staticBgContainerB {
+	background-color: #f9f9f9;
+	position: absolute;
+	left: 0px;
+	min-height: 500px;
+	margin-top: 13%;
+}
 
 
 .myFooter {
