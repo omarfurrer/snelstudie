@@ -373,6 +373,7 @@ body {
 
 .myFooter {
 	position: relative;
+	padding-bottom: 5%;
 }
 
 .myFooter p {
@@ -653,7 +654,7 @@ body {
 
 	.myNav {
 		height: 100%;
-		background-color: #f9f9f9;
+		background-color: transparent;
 	}
 
 	.testCol {
@@ -856,6 +857,7 @@ body {
 
 .articleHeadDiv {
 	display: inline-block;
+	margin-top: 2%;
 }
 
 .articleHeadItem {

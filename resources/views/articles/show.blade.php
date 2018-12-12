@@ -54,11 +54,10 @@
 				<ul>
 					<h4>You may also like:</h4>
 					<li><a href="">The 7 Things Writers Need to Make a Living</a></li>
-					<li><a href="">The 7 Things Writers Need to Make a Living</a></li>
-					<li><a href="">The 7 Things Writers Need to Make a Living</a></li>
-					<li><a href="">The 7 Things Writers Need to Make a Living</a></li>
-					<li><a href="">The 7 Things Writers Need to Make a Living</a></li>
-					<li><a href="">The 7 Things Writers Need to Make a Living</a></li>
+					<li><a href="">Be a Bad Writer to Be a Great Writer</a></li>
+					<li><a href="">10 Service Business Essentials that Help You Win Clients with Confidence</a></li>
+					<li><a href="">7 Unusual Signs on the Path to a Breakthrough</a></li>
+					<li><a href="">How to Outsmart Writer’s Block with Neuroscience</a></li>
 					<li><a class="articleSideLinksLastLink" href="">See All Popular Posts →</a></li>
 				</ul>
 			</div>
